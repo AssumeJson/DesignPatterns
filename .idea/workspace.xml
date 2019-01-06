@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4ced24-7f55-4788-982d-c015dd2f4db7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/CVideo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/FEVideo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/JavaVideo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/Video.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/factory/simple/VideoSimpleFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/openclose/ICourse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/target/classes/com/lg/design/openclose/JavaCourse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/CVideo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/FEVideo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/JavaVideo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Video.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/VideoSimpleFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/ICourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/JavaCourse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/OPenClosed/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,30 +32,201 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OPenClosed/pom.xml">
+      <file leaf-file-name="ICourse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/ICourse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="JavaCourse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/JavaCourse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="JAVA/com.lg.design.openclose.JavaCourse" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.lg.design.openclose.JavaCourse">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.lg.design.openclose.JavaCourse</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">com.lg.design.openclose.ICourse</node>
+                <node x="0.0" y="149.0">com.lg.design.openclose.JavaCourse</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.lg.design.openclose.JavaCourse" target="com.lg.design.openclose.ICourse">
+                  <point x="0.0" y="-49.5" />
+                  <point x="0.0" y="49.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-91.5" y="19.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Video.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Video.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaVideo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/JavaVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FEVideo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/FEVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="35" column="86" lean-forward="true" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CVideo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/CVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/com.lg.design.factory.simple" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.lg.design.factory.simple">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.lg.design.factory.simple</OriginalElement>
+              <nodes>
+                <node x="0.0" y="103.0">com.lg.design.factory.simple.FEVideo</node>
+                <node x="72.5" y="206.0">com.lg.design.factory.simple.VideoSimpleFactory</node>
+                <node x="91.5" y="309.0">com.lg.design.factory.simple.Test</node>
+                <node x="94.5" y="0.0">com.lg.design.factory.simple.Video</node>
+                <node x="189.0" y="103.0">com.lg.design.factory.simple.JavaVideo</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.lg.design.factory.simple.VideoSimpleFactory" target="com.lg.design.factory.simple.FEVideo">
+                  <point x="-53.25" y="-26.5" />
+                  <point x="125.75" y="181.0" />
+                  <point x="84.5" y="181.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="com.lg.design.factory.simple.JavaVideo" target="com.lg.design.factory.simple.Video">
+                  <point x="0.0" y="-26.5" />
+                  <point x="273.5" y="78.0" />
+                  <point x="221.25" y="78.0" />
+                  <point x="42.25" y="26.5" />
+                </edge>
+                <edge source="com.lg.design.factory.simple.VideoSimpleFactory" target="com.lg.design.factory.simple.JavaVideo">
+                  <point x="53.25" y="-26.5" />
+                  <point x="232.25" y="181.0" />
+                  <point x="273.5" y="181.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="com.lg.design.factory.simple.FEVideo" target="com.lg.design.factory.simple.Video">
+                  <point x="0.0" y="-26.5" />
+                  <point x="84.5" y="78.0" />
+                  <point x="136.75" y="78.0" />
+                  <point x="-42.25" y="26.5" />
+                </edge>
+                <edge source="com.lg.design.factory.simple.Test" target="com.lg.design.factory.simple.VideoSimpleFactory">
+                  <point x="0.0" y="-26.5" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="-43.384615384615415" y="193.61538461538458" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoSimpleFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/VideoSimpleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +240,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/OPenClosed/pom.xml" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/ICase.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/ICourse.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Video.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/FEVideo.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/VideoSimpleFactory.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/CVideo.java" />
+        <option value="$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Test.java" />
       </list>
     </option>
   </component>
@@ -69,8 +267,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="92" />
-    <option name="y" value="115" />
+    <option name="x" value="187" />
+    <option name="y" value="65" />
     <option name="width" value="1095" />
     <option name="height" value="741" />
   </component>
@@ -191,7 +389,25 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="OPenClosed" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPenClosed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPenClosed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +441,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lg.design.factory.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lg.design.factory.simple.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OPenClosed" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -319,6 +554,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -330,30 +570,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546659449285</updated>
-      <workItem from="1546659450994" duration="264000" />
+      <workItem from="1546659450994" duration="8143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264000" />
+    <option name="totallyTimeSpent" value="8143000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="115" width="1095" height="741" extended-state="0" />
-    <editor active="true" />
+    <frame x="187" y="65" width="1095" height="741" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2334437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21159421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -394,7 +634,232 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lg.design.openclose.ICourse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lg.design.openclose.ICourse</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lg.design.openclose.ICourse</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="46.5" y="15.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/openclose/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lg.design.openclose.JavaCourse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lg.design.openclose.JavaCourse</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.lg.design.openclose.ICourse</node>
+            <node x="0.0" y="149.0">com.lg.design.openclose.JavaCourse</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.lg.design.openclose.JavaCourse" target="com.lg.design.openclose.ICourse">
+              <point x="0.0" y="-49.5" />
+              <point x="0.0" y="49.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-91.5" y="19.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/FEVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lg.design.factory.simple.Test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lg.design.factory.simple.Test</OriginalElement>
+          <nodes>
+            <node x="38.71212121212122" y="26.363636363636346">com.lg.design.factory.simple.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-89.9090909090909" y="57.53787878787878" />
+          <SelectedNodes>
+            <node>com.lg.design.factory.simple.Test</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lg.design.factory.simple">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lg.design.factory.simple</OriginalElement>
+          <nodes>
+            <node x="0.0" y="103.0">com.lg.design.factory.simple.FEVideo</node>
+            <node x="72.5" y="206.0">com.lg.design.factory.simple.VideoSimpleFactory</node>
+            <node x="91.5" y="309.0">com.lg.design.factory.simple.Test</node>
+            <node x="94.5" y="0.0">com.lg.design.factory.simple.Video</node>
+            <node x="189.0" y="103.0">com.lg.design.factory.simple.JavaVideo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.lg.design.factory.simple.VideoSimpleFactory" target="com.lg.design.factory.simple.FEVideo">
+              <point x="-53.25" y="-26.5" />
+              <point x="125.75" y="181.0" />
+              <point x="84.5" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.lg.design.factory.simple.JavaVideo" target="com.lg.design.factory.simple.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="273.5" y="78.0" />
+              <point x="221.25" y="78.0" />
+              <point x="42.25" y="26.5" />
+            </edge>
+            <edge source="com.lg.design.factory.simple.VideoSimpleFactory" target="com.lg.design.factory.simple.JavaVideo">
+              <point x="53.25" y="-26.5" />
+              <point x="232.25" y="181.0" />
+              <point x="273.5" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.lg.design.factory.simple.FEVideo" target="com.lg.design.factory.simple.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="84.5" y="78.0" />
+              <point x="136.75" y="78.0" />
+              <point x="-42.25" y="26.5" />
+            </edge>
+            <edge source="com.lg.design.factory.simple.Test" target="com.lg.design.factory.simple.VideoSimpleFactory">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="-43.384615384615415" y="193.61538461538458" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/VideoSimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/CVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OPenClosed/src/main/java/com/lg/design/factory/simple/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="86" lean-forward="true" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
           <folding />
         </state>
       </provider>
